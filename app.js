@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let show = (count) => {
-        $.getJSON("https://github.com/katebarz/task.io/blob/master/example.json", function(json) {
+        $.getJSON("http://localhost/task/example.json", function(json) {
             console.log("JSON Data received ");
 
             let product, basket_img, availability, price_promo, price_final, price_base, name, producer_name;
